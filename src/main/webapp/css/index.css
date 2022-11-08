@@ -1,0 +1,105 @@
+body {
+	background-color: #2D2D38;
+	margin: 0;
+	padding: 8px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+}
+
+form {
+	background-color: #FFE600;
+	color: black;
+	padding: 60px;
+	font-size: 20px;
+	margin: auto;
+	width: 300px;
+	border-radius: 10px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+input[type='text'] {
+	width: 90%;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 7px;
+	margin-top: 5px;
+}
+
+select {
+	width: 95%;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 7px;
+	margin-top: 5px;
+	border-width: 2px;
+	border-style: inset;
+	border-image: initial;
+}
+
+input[type='submit'] {
+	border-radius: 10px;
+	padding: 13px 25px;
+	font-size: 20px;
+	font-weight: 800;
+	background-color: #2D2D38;
+	color: white;
+	border-style: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px;
+	padding-right: 110px;
+	background-color: #FFE600;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-color: #FFE600;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+}
+
+li {
+	list-style-type: none;
+	margin-left: 3rem;
+}
+
+a {
+	text-decoration: none;
+	color: #2D2D38;
+	font-size: 20px;
+}
+
+button {
+	padding: 13px 25px;
+	background-color: #2D2D38;
+	font-weight: 800;
+	font-size: 20px;
+	color: white;
+	border-radius: 10px;
+	border-style: none;
+}
+
+button:hover, input:hover[type='submit'], a:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.fileUpload {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
